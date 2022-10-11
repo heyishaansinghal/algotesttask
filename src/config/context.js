@@ -10,7 +10,7 @@ export const AppContext = ({children})=>{
     const [addLegConfig , setaddLegConfig] = useState(false)
     const [legsinfo , setLegsInfo] = useState({totalLot : 1})
     const [disabled, setDisabled] = useState(true);
-    const [noOfLegs , setNoOfLegs] = useState(0)
+    const [noOfLegs , setNoOfLegs] = useState(undefined)
     const [traildisabled, setTrailDisabled] = useState(true);
 
     const changeAddLeg = (e)=>{
